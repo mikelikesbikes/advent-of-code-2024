@@ -20,7 +20,7 @@ func TestPart1(t *testing.T) {
 	}
 }
 func TestPart1Input(t *testing.T) {
-	input, err := util.ReadFile(`day_3_input.txt`)
+	input, err := util.ReadFile(`input.txt`)
 	if err != nil {
 		t.Errorf("%v", err)
 	}
@@ -40,7 +40,7 @@ func TestPart2(t *testing.T) {
 }
 
 func TestPart2Input(t *testing.T) {
-	input, err := util.ReadFile(`day_3_input.txt`)
+	input, err := util.ReadFile(`input.txt`)
 	if err != nil {
 		t.Errorf("%v", err)
 	}

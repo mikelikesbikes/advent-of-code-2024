@@ -24,7 +24,7 @@ MXMXAXMASX`)
 }
 
 func TestPart1Input(t *testing.T) {
-	input, _ := util.ReadFile(`day_4_input.txt`)
+	input, _ := util.ReadFile(`input.txt`)
 	p := NewPuzzle(input)
 	res := Part1(p)
 	if res != 2662 {
@@ -50,7 +50,7 @@ MXMXAXMASX`)
 }
 
 func TestPart2Input(t *testing.T) {
-	input, _ := util.ReadFile(`day_4_input.txt`)
+	input, _ := util.ReadFile(`input.txt`)
 	p := NewPuzzle(input)
 	res := Part2(p)
 	if res != 2034 {
